@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục với Float và Overflow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <h1>Bố cục trang với float và overflow</h1>
+
+        <section class="container" aria-label="Bố cục hai cột">
+            <div class="left-column">
+                <h2>Cột bên trái</h2>
+                <p>Nội dung bên trái được căn bằng <code>float: left</code>.</p>
+            </div>
+            <div class="right-column">
+                <h2>Cột bên phải</h2>
+                <p>Nội dung bên phải được căn bằng <code>float: right</code>.</p>
+            </div>
+        </section>
+
+        <section class="overflow-section">
+            <h2>Khối nội dung có thanh cuộn</h2>
+            <div class="overflow-box" tabindex="0" aria-label="Nội dung dài có thể cuộn">
+                <p>Đây là nội dung dài để minh họa cách xử lý overflow. Khi nội dung vượt quá chiều cao của khung, thanh cuộn sẽ xuất hiện để bạn có thể đọc tiếp mà không làm tràn bố cục trang.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero.</p>
+                <p>Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi.</p>
+                <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
